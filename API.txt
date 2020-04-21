@@ -1,0 +1,106 @@
+============================POST===================================
+URL : 18.219.102.51:8099/v1/leads
+RequestBody :
+{
+  "primaryUser": {
+    "homeownerId": 6,
+    "username": "sub",
+    "firstName": "subroto",
+    "lastName": "roy",
+    "phone": "987654321",
+    "email": "subroto@gmail.com",
+    "userStatus": true,
+    "customNotes": "nothing"
+  },
+  "secondaryUser": {
+    "homeownerId": 7,
+    "username": "pqrs",
+    "firstName": "ashutosh",
+    "lastName": "rai",
+    "phone": "123456789",
+    "email": "pqrs@gmail.com",
+    "userStatus": false,
+    "customNotes": "nothing"
+  },
+  "assignedTo": {
+    "userId": 1,
+    "companyId": 2
+  },
+  "address": {
+    "addressId": 6,
+    "evMeasurementStatus": "98mts",
+    "addressLine1": "312 Baker Street",
+    "addressLine2": "Arlington",
+    "city": "Texas",
+    "state": "Belluve",
+    "zip": 12508
+  },
+  "leadDetails": {
+    "leadId": 92,
+    "leadStatus": "Opportunity",
+    "leadArchived": "Not Our Job Type",
+    "leadArchivedOther": "Others",
+    "jobType": "",
+    "structureType": "Pool House",
+    "projectType": "Partial Replacement",
+    "leadSource": "Phone",
+    "createdBy": "string",
+    "modifiedBy": "string",
+    "dollarSize": "30",
+    "projectDescription":"Eagleview Project"
+  }
+}
+
+=======================================PUT===================================
+URL : 18.219.102.51:8099/v1/leads/2790
+RequestBody:
+{
+  "primaryUser": {
+    "homeownerId": 6,
+    "username": "gan",
+    "firstName": "ganesh",
+    "lastName": "murthy",
+    "phone": "987654321",
+    "email": "ganesh@gmail.com",
+    "userStatus": true,
+    "customNotes": "nothing"
+  },
+  "secondaryUser": {
+    "homeownerId": 7,
+    "username": "pqrs",
+    "firstName": "abcde",
+    "lastName": "fghi",
+    "phone": "123456789",
+    "email": "pqrs@gmail.com",
+    "userStatus": false,
+    "customNotes": "nothing"
+  },
+  "assignedTo": {
+    "userId": 1,
+    "companyId": 2
+  },
+  "address": {
+    "addressId": 6,
+    "evMeasurementStatus": "98mts",
+    "addressLine1": "212, St. ford street",
+    "addressLine2": "Arlington",
+    "city": "Texas",
+    "state": "Belluve",
+    "zip": 12508
+  },
+  "leadDetails": {
+    "leadId": 92,
+    "leadStatus": "Opportunity",
+    "leadArchived": "Not Our Job Type",
+    "leadArchivedOther": "Others",
+    "jobType": "",
+    "structureType": "Pool House",
+    "projectType": "Partial Replacement",
+    "leadSource": "Phone",
+    "createdBy": "string",
+    "modifiedBy": "string",
+    "dollarSize": "40",
+    "projectDescription":"Eagleview Project1"
+  }
+}
+
